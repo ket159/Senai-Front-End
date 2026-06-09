@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout com Divs</title>
+</head>
+<body>
+
+    <div>
+        <h1>Meu Site</h1>
+    </div>
+
+    <div>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Contato</a>
+    </div>
+
+    <div>
+        <div>
+            <h2>Notícia 1</h2>
+            <p>Conteúdo da notícia.</p>
+        </div>
+
+        <div>
+            <h2>Notícia 2</h2>
+            <p>Conteúdo da notícia.</p>
+        </div>
+    </div>
+
+    <div>
+        <p>Informações adicionais.</p>
+    </div>
+
+    <div>
+        <p>© 2026 Meu Site</p>
+    </div>
+
+</body>
+</html>
