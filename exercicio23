@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 23 - Box Shadow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <div class="card">
+            <h2>Card com Sombra</h2>
+            <p>
+                Este elemento utiliza box-shadow para criar profundidade
+                e destacar o conteúdo na página.
+            </p>
+
+            <button>Saiba Mais</button>
+        </div>
+
+    </main>
+
+</body>
+</html>
