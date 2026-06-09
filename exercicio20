@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 20 - Sistema de Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <div class="tabs">
+            <button class="tab active" data-tab="tab1">Home</button>
+            <button class="tab" data-tab="tab2">Serviços</button>
+            <button class="tab" data-tab="tab3">Contato</button>
+        </div>
+
+        <div class="conteudo">
+
+            <section id="tab1" class="tab-content active">
+                <h2>Home</h2>
+                <p>Bem-vindo à página inicial.</p>
+            </section>
+
+            <section id="tab2" class="tab-content">
+                <h2>Serviços</h2>
+                <p>Conheça os serviços oferecidos pela empresa.</p>
+            </section>
+
+            <section id="tab3" class="tab-content">
+                <h2>Contato</h2>
+                <p>Entre em contato através dos nossos canais.</p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
