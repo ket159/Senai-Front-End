@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10 - Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <form class="pesquisa">
+            <h1>Pesquisa</h1>
+
+            <label for="busca">Digite sua pesquisa:</label>
+
+            <input
+                type="search"
+                id="busca"
+                name="busca"
+                placeholder="Pesquisar..."
+                required>
+
+            <button type="submit">Pesquisar</button>
+        </form>
+
+    </main>
+
+</body>
+</html>
