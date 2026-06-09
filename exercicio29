@@ -1,0 +1,49 @@
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  Button,
+  Box
+} from "@mui/material";
+
+function App() {
+  return (
+    <>
+      <AppBar position="fixed">
+        <Toolbar>
+          <Typography
+            variant="h6"
+            sx={{ flexGrow: 1 }}
+          >
+            SENAI Front-End
+          </Typography>
+
+          <Button color="inherit">
+            Início
+          </Button>
+
+          <Button color="inherit">
+            Sobre
+          </Button>
+
+          <Button color="inherit">
+            Contato
+          </Button>
+        </Toolbar>
+      </AppBar>
+
+      <Box sx={{ mt: 10, p: 3 }}>
+        <Typography variant="h4" gutterBottom>
+          Conteúdo Principal
+        </Typography>
+
+        <Typography>
+          Esta página possui uma barra de navegação fixa
+          desenvolvida com Material UI.
+        </Typography>
+      </Box>
+    </>
+  );
+}
+
+export default App;
