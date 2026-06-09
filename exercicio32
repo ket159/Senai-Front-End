@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 32 - Busca em API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Buscar Usuários</h1>
+
+        <input
+            type="text"
+            id="campoBusca"
+            placeholder="Digite um nome...">
+
+        <div id="resultado"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
