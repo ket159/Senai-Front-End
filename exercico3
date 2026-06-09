@@ -1,0 +1,36 @@
+Utilize corretamente <figure> e <figcaption> para exibir imagens com legendas.<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03 - Figure e Figcaption</title>
+</head>
+<body>
+
+    <header>
+        <h1>Galeria de Imagens</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Paisagens</h2>
+
+            <figure>
+                <img src="imagens/praia.jpg" alt="Praia ao pôr do sol" width="400">
+                <figcaption>Praia ao pôr do sol.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/montanha.jpg" alt="Montanhas cobertas por neve" width="400">
+                <figcaption>Montanhas cobertas por neve.</figcaption>
+            </figure>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - SENAI Front-End</p>
+    </footer>
+
+</body>
+</html>
