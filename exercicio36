@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 36 - UI e UX</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #e50914;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+        }
+
+        .titulo {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Análise de UI e UX - Netflix</h1>
+
+    <section class="titulo">
+        <h2>Site Analisado: Netflix</h2>
+        <p>Plataforma de streaming de filmes e séries.</p>
+    </section>
+
+    <section>
+        <h2>Aspectos de UI (User Interface)</h2>
+
+        <ul>
+            <li>Design moderno e organizado.</li>
+            <li>Paleta de cores consistente (vermelho, preto e branco).</li>
+            <li>Botões de destaque para ações importantes.</li>
+            <li>Boa hierarquia visual.</li>
+            <li>Layout responsivo.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Aspectos de UX (User Experience)</h2>
+
+        <ul>
+            <li>Navegação intuitiva.</li>
+            <li>Recomendações personalizadas.</li>
+            <li>Pesquisa rápida e eficiente.</li>
+            <li>Continuidade da reprodução.</li>
+            <li>Compatibilidade entre dispositivos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Conclusão</h2>
+
+        <p>
+            A Netflix apresenta uma excelente combinação entre UI e UX,
+            oferecendo uma interface agradável e uma experiência de uso
+            simples e eficiente.
+        </p>
+    </section>
+
+</body>
+</html>
