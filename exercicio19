@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 19 - Galeria de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="galeria">
+
+        <img src="imagens/foto1.jpg" alt="Foto 1" class="imagem">
+        <img src="imagens/foto2.jpg" alt="Foto 2" class="imagem">
+        <img src="imagens/foto3.jpg" alt="Foto 3" class="imagem">
+        <img src="imagens/foto4.jpg" alt="Foto 4" class="imagem">
+
+    </main>
+
+    <div id="modal" class="modal">
+        <img id="imagemAmpliada" src="" alt="Imagem ampliada">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
