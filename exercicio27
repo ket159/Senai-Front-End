@@ -1,0 +1,75 @@
+import { useState } from "react";
+
+import {
+  Button,
+  Modal,
+  Box,
+  Typography
+} from "@mui/material";
+
+function App() {
+  const [aberto, setAberto] = useState(false);
+
+  const abrirModal = () => {
+    setAberto(true);
+  };
+
+  const fecharModal = () => {
+    setAberto(false);
+  };
+
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh"
+      }}
+    >
+      <Button
+        variant="contained"
+        onClick={abrirModal}
+      >
+        Abrir Modal
+      </Button>
+
+      <Modal
+        open={aberto}
+        onClose={fecharModal}
+      >
+        <Box
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: 400,
+            bgcolor: "background.paper",
+            borderRadius: 2,
+            boxShadow: 24,
+            p: 4
+          }}
+        >
+          <Typography variant="h5" gutterBottom>
+            Aviso
+          </Typography>
+
+          <Typography>
+            Este é um modal desenvolvido com Material UI.
+          </Typography>
+
+          <Button
+            variant="contained"
+            sx={{ mt: 2 }}
+            onClick={fecharModal}
+          >
+            Fechar
+          </Button>
+        </Box>
+      </Modal>
+    </div>
+  );
+}
+
+export default App;
