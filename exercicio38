@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 38 - Teste A/B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Teste A/B de Botões</h1>
+
+        <div class="botoes">
+            <button id="botaoA" class="botao-a">
+                Botão A
+            </button>
+
+            <button id="botaoB" class="botao-b">
+                Botão B
+            </button>
+        </div>
+
+        <div class="resultado">
+            <p>Cliques no Botão A: <span id="cliquesA">0</span></p>
+            <p>Cliques no Botão B: <span id="cliquesB">0</span></p>
+
+            <h2 id="vencedor">
+                Nenhum vencedor ainda
+            </h2>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
