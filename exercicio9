@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 09 - Fieldset e Legend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <form class="cadastro">
+
+            <h1>Cadastro Completo</h1>
+
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" name="rua" required>
+
+                <label for="numero">Número</label>
+                <input type="number" id="numero" name="numero" required>
+
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" required>
+
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" required>
+
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" required>
+            </fieldset>
+
+            <button type="submit">Enviar Cadastro</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
