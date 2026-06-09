@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01 - HTML Semântico</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portfólio de Exercícios Front-End</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Exercícios</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Sobre o Projeto</h2>
+            <p>Este projeto reúne exercícios desenvolvidos durante os estudos de Front-End.</p>
+        </section>
+
+        <section>
+            <h2>Artigos</h2>
+
+            <article>
+                <h3>HTML Semântico</h3>
+                <p>Uso correto das tags semânticas para melhorar a estrutura da página.</p>
+            </article>
+
+            <article>
+                <h3>Boas Práticas</h3>
+                <p>Organização e legibilidade do código HTML.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Informações Extras</h2>
+            <p>Material de apoio para desenvolvimento web.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Exercício SENAI Front-End</p>
+    </footer>
+
+</body>
+</html>
