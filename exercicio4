@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04 - Artigo de Blog</title>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Tecnologia</h1>
+    </header>
+
+    <main>
+
+        <article>
+            <header>
+                <h2>Introdução ao HTML Semântico</h2>
+                <p>Publicado em 09/06/2026</p>
+            </header>
+
+            <section>
+                <h3>O que é HTML Semântico?</h3>
+                <p>
+                    HTML semântico utiliza tags que descrevem o significado
+                    do conteúdo, facilitando a leitura por navegadores,
+                    mecanismos de busca e tecnologias assistivas.
+                </p>
+            </section>
+
+            <section>
+                <h3>Principais Tags Semânticas</h3>
+                <p>
+                    Algumas das principais tags são:
+                    header, nav, main, section, article, aside e footer.
+                </p>
+            </section>
+
+            <section>
+                <h3>Benefícios</h3>
+                <p>
+                    A semântica melhora a acessibilidade, a organização do
+                    código e contribui para o SEO da página.
+                </p>
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - SENAI Front-End</p>
+    </footer>
+
+</body>
+</html>
