@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 33 - Login com API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <form id="formLogin" class="login">
+
+            <h1>Login</h1>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+                required>
+
+            <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+                required>
+
+            <button type="submit">
+                Entrar
+            </button>
+
+            <p id="mensagem"></p>
+
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
