@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 39 - Cadastro Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <form id="cadastro">
+
+            <h1>Cadastro</h1>
+
+            <!-- Etapa 1 -->
+            <section class="etapa ativa" id="etapa1">
+                <h2>Dados Pessoais</h2>
+
+                <input
+                    type="text"
+                    placeholder="Nome completo"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="E-mail"
+                    required>
+
+                <button type="button" id="proximo1">
+                    Próximo
+                </button>
+            </section>
+
+            <!-- Etapa 2 -->
+            <section class="etapa" id="etapa2">
+                <h2>Contato</h2>
+
+                <input
+                    type="tel"
+                    placeholder="Telefone">
+
+                <input
+                    type="text"
+                    placeholder="Cidade">
+
+                <div class="botoes">
+                    <button type="button" id="voltar1">
+                        Voltar
+                    </button>
+
+                    <button type="button" id="proximo2">
+                        Próximo
+                    </button>
+                </div>
+            </section>
+
+            <!-- Etapa 3 -->
+            <section class="etapa" id="etapa3">
+                <h2>Segurança</h2>
+
+                <input
+                    type="password"
+                    placeholder="Senha"
+                    required>
+
+                <input
+                    type="password"
+                    placeholder="Confirmar senha"
+                    required>
+
+                <div class="botoes">
+                    <button type="button" id="voltar2">
+                        Voltar
+                    </button>
+
+                    <button type="submit">
+                        Finalizar Cadastro
+                    </button>
+                </div>
+            </section>
+
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
